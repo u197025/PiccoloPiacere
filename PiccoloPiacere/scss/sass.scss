@@ -1,5 +1,6 @@
 html {
     scroll-behavior: smooth;
+    overflow-x: hidden;
   }
 
 body  {
@@ -14,7 +15,6 @@ body  {
         
         }
 
-  
 .vertical-align {
     display:flex;
     align-items: center ; }
@@ -236,6 +236,16 @@ transition: all 0.50s ease-in-out ;
 } 
 
 
+@media (min-width: 40em) {
+
+  .carousel-caption--galeria p {
+    margin-bottom: 1.25rem;
+    font-size: 1.25rem;
+    line-height: 1.4;
+  }
+
+
+}
 
 
 @media only screen and (max-width: 768px) {
@@ -251,7 +261,7 @@ transition: all 0.50s ease-in-out ;
        }
 
     .header__titulo   { 
-        font-size:  200%;     
+        font-size:  280%;     
      }
 
      .redes-rrss__instagram    {
@@ -274,7 +284,7 @@ transition: all 0.50s ease-in-out ;
     height: 5%;
     position: fixed;
     top: 1%;
-    right: 0%;
+    right: 5%;
     display:flex;
     align-items: center;
     justify-content:space-evenly;
@@ -309,17 +319,9 @@ transition: all 0.50s ease-in-out ;
   }
   
 
-  @media (min-width: 40em) {
+   
 
-    .carousel-caption--galeria p {
-      margin-bottom: 1.25rem;
-      font-size: 1.25rem;
-      line-height: 1.4;
-    }
-  
- 
-  }
-  
+   
   
   .backcolor_galeria
   {

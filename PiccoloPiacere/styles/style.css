@@ -20,7 +20,7 @@ body {
   height: 5%;
   position: fixed;
   top: 3%;
-  right: 0%;
+  right: 5%;
   display: flex;
   align-items: center;
   justify-content: space-evenly; }
@@ -179,11 +179,11 @@ h1:hover {
   .header__titulo {
     font-size: 280%; }
   .redes-rrss__instagram {
-    font-size: 100%; }
+    font-size: 110%; }
   .redes-rrss__facebook {
-    font-size: 100%; }
+    font-size: 110%; }
   .redes-rrss__whatsapp {
-    font-size: 100%; }
+    font-size: 110%; }
   .redes-rrss {
     width: 15%;
     height: 5%;

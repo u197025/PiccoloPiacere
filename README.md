@@ -1,6 +1,8 @@
-[banner](https://piccolopiacere1.000webhostapp.com/img/piccolo_3.jpg)
+# Project
 
-Este sitio se contruyó para PiccoloPiacere  [Nuestro Cliente](https://www.instagram.com/piccolopiacere_1/)
+PiccoloPiacere
+
+## Credits
 
 Construido por Marcelo Giannini 10/2021 ⭐
-
+Para PiccoloPiacere  [PiccoloPiacere](https://www.instagram.com/piccolopiacere_1/)

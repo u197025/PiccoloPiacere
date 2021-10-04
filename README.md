@@ -1,8 +1,7 @@
-# Project
+# PiccoloPiacere
 
-PiccoloPiacere
+![imagename](https://piccolopiacere1.000webhostapp.com/img/piccolo_3.jpg)
 
 ## Credits
 
-Construido por Marcelo Giannini 10/2021 ⭐
-Para PiccoloPiacere  [PiccoloPiacere](https://www.instagram.com/piccolopiacere_1/)
+Construido por Marcelo Giannini 10/2021 para [PiccoloPiacere](https://www.instagram.com/piccolopiacere_1/)

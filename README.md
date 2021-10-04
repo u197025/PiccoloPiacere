@@ -1,6 +1,8 @@
-![banner](https://piccolopiacere1.000webhostapp.com/img/galeria/galeria2.jpg)
+/play sax!
 
-Este repositorio corresponde es de PiccoloPiacere  [GitHub Profile README](https://www.instagram.com/piccolopiacere_1/)
+[banner](https://piccolopiacere1.000webhostapp.com/img/piccolo_3.jpg)
 
-Construido por Marcelo Giannini ⭐
+Este sitio se contruyó para PiccoloPiacere  [Nuestro Cliente](https://www.instagram.com/piccolopiacere_1/)
+
+Construido por Marcelo Giannini 10/2021 ⭐
 

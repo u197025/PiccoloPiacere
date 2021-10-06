@@ -15,6 +15,12 @@ body  {
         
         }
 
+
+
+::-webkit-scrollbar {
+          display: none;
+      }
+
 .vertical-align {
     display:flex;
     align-items: center ; }
@@ -31,12 +37,13 @@ body  {
     display:flex;
     align-items: center;
     justify-content:space-between;
+    word-wrap: break-word;
  
 }
 
-.redes-rrss__instagram {
+.redes-rrss__instagram  {
    
-    width:10%;
+    width:33%;
     height:auto;
     color:#FFF;
     border-radius:50px;
@@ -46,7 +53,7 @@ body  {
 
 .redes-rrss__facebook {
   
-    width:10%;
+    width:33%;
     height:auto;
     color:#FFF;
     border-radius:50px;
@@ -56,7 +63,7 @@ body  {
 
 .redes-rrss__whatsapp {
  
-    width:10%;
+    width:33%;
     height:auto;
     color:#FFF;
     border-radius:50px;  
@@ -263,31 +270,37 @@ transition: all 0.50s ease-in-out ;
         font-size:  280%;     
      }
 
-     .redes-rrss__instagram    {
-        font-size: 150%;  
+ 
+     .redes-rrss {
+   
+      width: 15%;
+      height: auto;
+      position: fixed;
+      top: 2.5%;
+      right: 3%;
+      display:flex;
+      align-items: center;
+      word-wrap: break-word;
+      justify-content: space-between;
+  }
+ 
+    .redes-rrss__instagram    {
+      
+        font-size: 140%;  
     }
     
     .redes-rrss__facebook
     {   
-        font-size: 150%; 
+        font-size: 140%; 
         }
     
     .redes-rrss__whatsapp {  
-        font-size: 150%; 
+        font-size: 140%; 
      }
- 
+  
     
-.redes-rrss {
-   
-    width: 15%;
-    height: 5%;
-    position: fixed;
-    top: 1%;
-    right: 5%;
-    display:flex;
-    align-items: center;
-    justify-content:betweenly;
-}
+
+ 
  }
 
  

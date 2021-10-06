@@ -11,6 +11,9 @@ body {
   background-color: rgba(241, 200, 190, 0.2);
   background: radial-gradient(circle, #ffdde1, #ee9ca7); }
 
+::-webkit-scrollbar {
+  display: none; }
+
 .vertical-align {
   display: flex;
   align-items: center; }
@@ -23,24 +26,25 @@ body {
   right: 3%;
   display: flex;
   align-items: center;
-  justify-content: space-between; }
+  justify-content: space-between;
+  word-wrap: break-word; }
 
 .redes-rrss__instagram {
-  width: 10%;
+  width: 33%;
   height: auto;
   color: #FFF;
   border-radius: 50px;
   font-size: 200%; }
 
 .redes-rrss__facebook {
-  width: 10%;
+  width: 33%;
   height: auto;
   color: #FFF;
   border-radius: 50px;
   font-size: 200%; }
 
 .redes-rrss__whatsapp {
-  width: 10%;
+  width: 33%;
   height: auto;
   color: #FFF;
   border-radius: 50px;
@@ -178,21 +182,22 @@ h1:hover {
     height: auto; }
   .header__titulo {
     font-size: 280%; }
-  .redes-rrss__instagram {
-    font-size: 150%; }
-  .redes-rrss__facebook {
-    font-size: 150%; }
-  .redes-rrss__whatsapp {
-    font-size: 150%; }
   .redes-rrss {
     width: 15%;
-    height: 5%;
+    height: auto;
     position: fixed;
-    top: 1%;
-    right: 5%;
+    top: 2.5%;
+    right: 3%;
     display: flex;
     align-items: center;
-    justify-content: betweenly; } }
+    word-wrap: break-word;
+    justify-content: space-between; }
+  .redes-rrss__instagram {
+    font-size: 140%; }
+  .redes-rrss__facebook {
+    font-size: 140%; }
+  .redes-rrss__whatsapp {
+    font-size: 140%; } }
 
 .carousel--galeria {
   padding-left: 1rem;

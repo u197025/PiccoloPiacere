@@ -11,9 +11,11 @@ body {
   background-color: rgba(241, 200, 190, 0.2);
   background: radial-gradient(circle, #ffdde1, #ee9ca7); }
 
+/*
 ::-webkit-scrollbar {
-  display: none; }
-
+          display: none;
+      }
+*/
 .vertical-align {
   display: flex;
   align-items: center; }
@@ -94,6 +96,13 @@ h1:hover {
 
 .tituloh2 {
   color: #c70868;
+  font-family: Crimson Pro;
+  font-style: italic;
+  font-size: 250%;
+  font-weight: 600; }
+
+.tituloh3 {
+  color: gray;
   font-family: Crimson Pro;
   font-style: italic;
   font-size: 250%;
@@ -181,6 +190,8 @@ h1:hover {
     line-height: 1.4; } }
 
 @media only screen and (max-width: 768px) {
+  ::-webkit-scrollbar {
+    display: none; }
   .footer__parrafo2 {
     color: #c70868;
     font-size: 15px; }
@@ -200,11 +211,11 @@ h1:hover {
     word-wrap: break-word;
     justify-content: space-between; }
   .redes-rrss__instagram {
-    font-size: 140%; }
+    font-size: 160%; }
   .redes-rrss__facebook {
-    font-size: 140%; }
+    font-size: 160%; }
   .redes-rrss__whatsapp {
-    font-size: 140%; } }
+    font-size: 160%; } }
 
 .carousel--galeria {
   padding-left: 1rem;
@@ -375,3 +386,9 @@ a {
 
 .color {
   color: #c70868; }
+
+.color_quehacemos {
+  color: gray; }
+
+.shadow {
+  text-shadow: 1px 1px gray; }

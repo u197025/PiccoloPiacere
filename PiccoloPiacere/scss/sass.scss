@@ -16,7 +16,6 @@ body  {
         }
 
 
-
 ::-webkit-scrollbar {
           display: none;
       }
@@ -25,7 +24,10 @@ body  {
     display:flex;
     align-items: center ; }
 
-
+.img_tama {
+      height: 100%;
+      width: 100%;
+}
 
 .redes-rrss {
    
@@ -45,7 +47,7 @@ body  {
    
     width:33%;
     height:auto;
-    color:#FFF;
+    color: #c70868;
     border-radius:50px;
     font-size:200%;
 
@@ -55,7 +57,7 @@ body  {
   
     width:33%;
     height:auto;
-    color:#FFF;
+    color: #c70868;
     border-radius:50px;
     font-size:200%;
    
@@ -65,7 +67,7 @@ body  {
  
     width:33%;
     height:auto;
-    color:#FFF;
+    color: #c70868;
     border-radius:50px;  
     font-size:200%;
  
@@ -81,13 +83,13 @@ body  {
    
 .redes-rrss a:hover   {
    
-    transform:scale( 1.5  ) ;
-    color:gray;
- 
+  color:gray;
+  transform:scale( 1.5  ) ;
+    
 }
 
 h1:hover   {
-   
+  transition: all 1s;
   transform:scale( 1.10  ) ;
   cursor: pointer;
   text-shadow: 2px 2px 2px gray
@@ -178,7 +180,7 @@ transition: all 0.50s ease-in-out ;
 }
 
 .footer__parrafo2 i:hover {
-    
+  transition: all 1s;
     transform:scale( 1.2 ) ;
     color:gray; 
     }
@@ -197,7 +199,7 @@ transition: all 0.50s ease-in-out ;
 }
 
 .footer__parrafo2 a:hover   {
-   
+  transition: all 1s;
     transform:scale( 1.5  ) ;
     color:gray;
     
@@ -267,7 +269,7 @@ transition: all 0.50s ease-in-out ;
        }
 
     .header__titulo   { 
-        font-size:  280%;     
+        font-size:  220%;     
      }
 
  
@@ -346,6 +348,7 @@ transition: all 0.50s ease-in-out ;
 
 
 .card:hover img{
+transition: all 1s;
 transform: scale(1.05);
 box-shadow: 0 10px 20px;
   }
